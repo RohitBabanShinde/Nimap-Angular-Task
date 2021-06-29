@@ -1,0 +1,170 @@
+::ng-deep .carousel-control-next-icon, ::ng-deep .carousel-control-prev-icon {
+  background-image: none;
+  font-family: 'Font Awesome 5 Free';
+  font-size: 60px;
+  font-weight: 900;
+  color: #212529;
+  }
+
+  ::ng-deep .carousel-control-prev-icon::before{
+  content: "\f104";
+  }
+
+  ::ng-deep .carousel-control-next-icon::before{
+  content: "\f105";
+  }
+
+  .carousel-indicators  {
+    width : 20px!important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    margin: 10px;
+  }
+
+  .carousel-indicators  {
+    width : 20px!important;
+    background-color: black;
+    height: 20px !important;
+    border-radius: 50% !important
+  }
+
+  .carousel-indicators .active {
+    width : 20px !important;
+    background-color: yellow;
+    height: 20px !important;
+    border-radius: 50% !important
+  }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100vw;
+  height: 100vh;
+}
+.image{
+  position: relative;
+}
+
+.hero{
+  position: absolute;
+ top: 40%;
+ left: 30%;
+}
+.hero_data h3{
+  font-size: 3rem;
+  font-weight: inherit;
+  margin-bottom: 3rem;
+}
+.top{
+  margin-bottom: 1rem;
+}
+ .top input{
+  font-size: 1.4rem;
+  display: inline-block;
+  width: 37rem;
+  padding: 1rem;
+  background-color:#fff ;
+  border: none;
+  text-indent: 1;
+}
+.top input:focus{
+  outline: none;
+}
+
+.hero_link:link,
+.hero_link:visited{
+  display: inline-block;
+  padding: 1.2rem 3rem;
+  margin-left: 0.8rem;
+  color: #f1f1f1;
+  background-color: #222;
+  transition: 0.3s;
+
+}
+.hero_link:hover{
+  background-color: #f1f1f1;
+  color: #222;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom select{
+  color: #555;
+  background:#ffff;
+  width: 20rem;
+  height: 2rem;
+  border: none;
+}
+
+.link{
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.4rem;
+  background-color: #222;
+  color: #f1f1f1;
+  cursor: pointer;
+  margin-top: 5rem;
+  left: 30%;
+  letter-spacing: 2px;
+  padding: 1.3rem 3.5rem;
+  border: 1px solid #222;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+
+}
+.link:hover{
+  font-weight: 700;
+  background-color: transparent;
+  color: #222;
+}
+
+.hero-main{
+  padding: 6rem 0;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.info h3{
+  font-size: 1.5rem;
+  color: #555;
+}
+.info h4{
+  font-size: 2.5rem;
+  color: #222;
+  font-weight: inherit;
+  padding-bottom: 10px;
+}
+.info h4::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 250px;
+  height: 6px;
+  background: #555;;
+  margin: 30px 42%;
+  text-align: center;
+}
+.info p{
+  padding-top: 40px;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 60px;
+
+}
+.text:link,
+.text:visited{
+  padding: 1.2rem 3rem;
+  border: 1px solid #222;
+  display: inline-block;
+  background-color: #F1f1f1;
+  color: #222;
+  transition: 0.3s;
+}

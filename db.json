@@ -1,0 +1,26 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "fname": "Rohit",
+      "lname": "Shinde",
+      "email": "rohitshinde4534@gmail.com",
+      "mobile": "9136876928",
+      "age": 25,
+      "state": "maharashtra",
+      "country": "india",
+      "address": "home",
+      "address1": "Test",
+      "address2": "test",
+      "interests": [
+        "cricket",
+        "Programming",
+        "Computers",
+        "Reading Book"
+      ],
+      "image": null,
+      "image1": null,
+      "ischeck": true
+    }
+  ]
+}
